@@ -1,3 +1,54 @@
+/*Custom style Start*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 2000px;
+  margin: auto;
+  padding: 0 25px;
+}
+
+body{
+  background: rgba(0, 0, 0, .8);
+  font-family: 'Poppins', sans-serif;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.text-logo{
+  font-family: 'Holtwood One SC', serif;
+  color: #fff;
+  padding: 0 15px;
+  font-size: 35px;
+  margin: auto;
+  border: #fff solid 4px;
+}
+
+.donate-btn{
+  background: rgb(255, 43, 43); /*#750031;*/
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5px 20px;
+  box-shadow: 0 0 10px 0 #000;
+}
+
+.donate-btn #heart{
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.header{
+  background: #F50066;/*rgba(250, 84, 84, 0.90);/*rgb(33, 233, 125);*/
+  box-shadow: 0 0 10px 0 #000;
+}
+/*Custom style End*/
 .webgl-content * {border: 0; margin: 0; padding: 0}
 .webgl-content {position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
 

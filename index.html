@@ -3,9 +3,35 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | TRacer</title>
+    <title>Unity WebGL Player | (T)Racer</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--header-start--->
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="pic-logo">
+            <img src="https://stevedprogrammer.github.io/TheSuperProgrammer.github.io/images/logo.png" alt="" width="80px">
+          </div>
+          <div class="text-logo">
+          <p>STEVE'S GAME HUB</p>
+        </div>
+        <div class="donate-btn">
+          <p>
+            <span id="coffee">&#9749;</span>
+            <span id="heart">&#128155;</span>
+            <span id="money">&#128176;</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--header-end--->
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
@@ -14,12 +40,7 @@
   </head>
   <body>
     <div class="webgl-content">
-      <div id="unityContainer" style="width: 1280px; height: 720px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">TRacer</div>
-      </div>
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
     </div>
   </body>
 </html>
